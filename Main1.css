@@ -1,0 +1,153 @@
+@charset "utf-8";
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-position: bottom right, left; 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: linear-gradient(
+        to bottom,
+        rgb(255, 255, 255), 70%,
+        rgba(255, 255, 255, 0)),
+    url("./mainImge2.png")
+}
+
+.mainP {
+    font-size: 2em;
+    font-weight: bold;
+    width: 100%;
+}
+
+@media screen and (max-width:300px) {
+    .mainP {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width:180px) {
+    .mainP {
+        font-size: 1em;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width:110px) {
+    .mainP {
+        font-size: 0.7em;
+        font-weight: bold;
+    }
+}
+
+
+.mainText {
+    text-align: center;
+    background-color: white, 
+    linear-gradient( #ffffff, #ffffff, 0.5) ;
+    top: 0;
+    width: 100%;
+    padding-top: 5%;
+}
+
+@media screen and (max-width:400px) {
+    .mainText {
+        padding-top: 10%;
+    }
+}
+
+@media screen and (max-width:300px) {
+    .mainText {
+        padding-top: 15%;
+    }
+}
+
+.navP {
+    padding-top: 3%;
+    font-size: 1em;
+}
+
+@media screen and (max-width:300px) {
+    .navP {
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width:180px) {
+    .navP {
+        font-size: 0.5em;
+    }
+}
+
+@media screen and (max-width:110px) {
+    .navP {
+        font-size: 0.1em;
+    }
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: white;
+    height: 10%;
+    width: 100%;
+    left: 0;
+    right: 0;
+
+}
+.footerA {
+    text-align: center;
+    width: 100%;
+    display: flex;
+}
+
+.footerA a {
+    margin: 0 auto;
+    text-decoration: none;
+    color: black;
+    padding-top: 20px;
+}
+
+.footerA p {
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.menuIcon1 {
+    width: 20%;
+}
+
+.menuIcon2 {
+    width: 40%;
+}
+
+.menuIcon3 {
+    width: 40%;
+}
+/* ul {
+    list-style: none;
+    text-decoration: none;
+    width: 100%;
+    position: relative;
+}
+
+li {
+    float: left;
+    margin: 0;
+    padding-left: 16%;
+    text-align: center;
+    transform: translateY(-15%);
+    justify-content: space-between
+}
+
+
+
+@media screen and (max-width: 800px) {
+    li {
+        padding-left: 10%;
+        text-align: center;
+        width: 50%;
+    }
+} */
